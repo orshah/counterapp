@@ -1,0 +1,16 @@
+button {
+  width: 10rem;
+  height: 5rem;
+  background-color: #a9c9ff;
+  background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
+
+  box-shadow: -6px -6px 16px #fff, 6px 6px 16px #d1cdc7;
+  border: none;
+  color: #ffffff;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 3rem;
+  margin: 10px;
+  text-transform: uppercase;
+  width: 180px;
+  font-weight: bolder;
+}

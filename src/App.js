@@ -20,8 +20,8 @@ function App() {
 
   return (
     <>
-      <div>
-        <h1>{myNum}</h1>
+      <h1>{myNum}</h1>
+      <div className="container">
         <CounterApp type="plus" text="+" handleClick={onClickHandlerPlus} />
         <CounterApp type="minus" text="-" handleClick={onClickHandlerMinus} />
         <CounterApp

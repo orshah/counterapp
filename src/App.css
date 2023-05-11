@@ -1,4 +1,27 @@
-div {
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+h1 {
+  background-image: linear-gradient(
+    174.2deg,
+    rgba(255, 244, 228, 1) 7.1%,
+    rgba(240, 246, 238, 1) 67.4%
+  );
+
+  box-shadow: -6px -6px 16px #fff, 6px 6px 16px #d1cdc7;
+  border: 1px solid #e4e4e4;
+  color: #010101;
+  font-family: sans-serif;
+  font-size: 5rem;
+  font-weight: 300;
+  height: 5rem;
+  margin-bottom: 30px;
+  padding: 15px;
+  text-align: center;
+  width: 25rem;
   margin: auto;
-  width: 50%;
 }
