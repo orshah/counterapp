@@ -1,7 +1,11 @@
 import "./counterApp.style.css";
 
-const CounterApp = () => {
-  return <h1>This is counter App</h1>;
+const CounterApp = ({ text, type, handleClick }) => {
+  return (
+    <button className={type} onClick={handleClick}>
+      {text}
+    </button>
+  );
 };
 
 export default CounterApp;
