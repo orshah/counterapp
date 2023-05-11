@@ -1,7 +1,8 @@
+import CounterApp from "./components/CounterApp/CounterApp";
 import "./App.css";
 
 function App() {
-  return <h1>Hello</h1>;
+  return <CounterApp />;
 }
 
 export default App;
