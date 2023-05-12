@@ -1,4 +1,4 @@
-import CounterButton from "./components/CounterApp/CounterButton";
+import CounterButton from "./components/CounterButton/CounterButton";
 import { useState } from "react";
 import "./App.css";
 
