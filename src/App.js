@@ -1,9 +1,11 @@
 import CounterButton from "./components/CounterButton/CounterButton";
+import img from "./images/police.avif";
 import { useState } from "react";
 import "./App.css";
 
 function App() {
   const [myNum, setMyNum] = useState(0);
+
   const onClickHandlerPlus = () => {
     if (myNum + 10 <= 150) {
       setMyNum(myNum + 10);
@@ -58,6 +60,7 @@ function App() {
           handleClick={onClickHandlerMultiply}
         />
       </div>
+      {myNum > 50 && <img src={img} />}
     </>
   );
 }
