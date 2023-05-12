@@ -1,4 +1,4 @@
-import CounterApp from "./components/CounterApp/CounterApp";
+import CounterButton from "./components/CounterApp/CounterButton";
 import { useState } from "react";
 import "./App.css";
 
@@ -32,19 +32,27 @@ function App() {
     <>
       <h1>{myNum}</h1>
       <div className="container">
-        <CounterApp type="plus" text="+10" handleClick={onClickHandlerPlus} />
-        <CounterApp type="minus" text="-10" handleClick={onClickHandlerMinus} />
-        <CounterApp
+        <CounterButton
+          type="plus"
+          text="+10"
+          handleClick={onClickHandlerPlus}
+        />
+        <CounterButton
+          type="minus"
+          text="-10"
+          handleClick={onClickHandlerMinus}
+        />
+        <CounterButton
           type="reset"
           text="Reset"
           handleClick={onClickHandlerReset}
         />
-        <CounterApp
+        <CounterButton
           type="division"
           text="Divide by 5"
           handleClick={onClickHandlerDivide}
         />
-        <CounterApp
+        <CounterButton
           type="multiplication"
           text="Multiply by 5"
           handleClick={onClickHandlerMultiply}
