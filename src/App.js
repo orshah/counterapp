@@ -32,8 +32,8 @@ function App() {
     <>
       <h1>{myNum}</h1>
       <div className="container">
-        <CounterApp type="plus" text="+" handleClick={onClickHandlerPlus} />
-        <CounterApp type="minus" text="-" handleClick={onClickHandlerMinus} />
+        <CounterApp type="plus" text="+10" handleClick={onClickHandlerPlus} />
+        <CounterApp type="minus" text="-10" handleClick={onClickHandlerMinus} />
         <CounterApp
           type="reset"
           text="Reset"
@@ -41,12 +41,12 @@ function App() {
         />
         <CounterApp
           type="division"
-          text="Divide"
+          text="Divide by 5"
           handleClick={onClickHandlerDivide}
         />
         <CounterApp
           type="multiplication"
-          text="Multiply"
+          text="Multiply by 5"
           handleClick={onClickHandlerMultiply}
         />
       </div>
