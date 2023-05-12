@@ -17,6 +17,16 @@ function App() {
   const onClickHandlerReset = () => {
     setMyNum(0);
   };
+  const onClickHandlerDivide = () => {
+    if (myNum / 5 >= 1) {
+      setMyNum(myNum / 5);
+    }
+  };
+  const onClickHandlerMultiply = () => {
+    if (myNum * 5 <= 150) {
+      setMyNum(myNum * 5);
+    }
+  };
 
   return (
     <>
@@ -28,6 +38,16 @@ function App() {
           type="reset"
           text="Reset"
           handleClick={onClickHandlerReset}
+        />
+        <CounterApp
+          type="division"
+          text="Divide"
+          handleClick={onClickHandlerDivide}
+        />
+        <CounterApp
+          type="multiplication"
+          text="Multiply"
+          handleClick={onClickHandlerMultiply}
         />
       </div>
     </>
