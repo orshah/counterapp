@@ -8,10 +8,10 @@ button {
   border: none;
   color: #ffffff;
   font-family: "Yanone Kaffeesatz", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 10px;
   text-transform: uppercase;
-  width: 180px;
+  width: 200px;
   font-weight: bolder;
 }
 
