@@ -23,7 +23,7 @@ function App() {
     }
   };
   const onClickHandlerMultiply = () => {
-    if (myNum * 5 <= 150) {
+    if (myNum * 5 <= 1000) {
       setMyNum(myNum * 5);
     }
   };
